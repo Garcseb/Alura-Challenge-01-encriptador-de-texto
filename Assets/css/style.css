@@ -1,0 +1,169 @@
+body{
+    background-color: #0e124b ;
+}
+
+h1{
+    font-family: 'inter', 'sans-serif';
+    color: rgb(81, 73, 189);
+    font-size: 40px;
+
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.polig{
+    /* Rectangulo de color */
+
+        width: 400px;
+        height: 550px;
+        background: #bcb2e6;
+        font-family: 'inter';
+
+        position: absolute;
+        top: 90px;
+        right: 80px;
+
+        border-radius: 10px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+}
+
+.resultado-imagen {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    left: 910px;
+}
+
+  .input-text {
+    font-size: 15px;
+
+    width: 550px;
+    height: 350px;
+
+    border: none;
+
+    background-color: #bcb2e6;
+    
+    position: absolute;
+    top: 150px;
+    left: 240px;
+}
+
+.aviso{
+    /* Aviso con la palomita */
+
+        position: absolute;
+        bottom: 95px;
+        left: 250px;
+        font-size: 12px;
+        color: white;
+}
+
+.encriptar-btn{
+    /* Posicion */
+
+        position: absolute;
+        bottom: 40px;
+        left: 300px;
+    
+    /* Color y Custom */
+        
+        width: 15%;
+        padding: 15px 0;
+        border-radius: 10px;
+        border: none;
+        background-color: #0b256d;
+        color: white;
+        transition: 0.25s all;
+}
+
+.encriptar-btn:hover{
+    background-color: #5a70ac;
+    color: black;
+    transform: scale(1.1);
+}
+
+.desencriptar-btn{
+    /* Posicion */
+
+    position: absolute;
+    bottom: 40px;
+    left: 550px;
+
+/* Color y Custom */
+
+    width: 15%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #4e5183;
+    color: black;
+    transition: 0.25s all;
+}
+
+.desencriptar-btn:hover{
+    background-color: rgb(45, 61, 104);
+    color: white;
+    transform: scale(1.1);
+}
+
+.resultado{
+    font-size: 15px;
+
+    width: 350px;
+    height: 450px;
+
+    border: none;
+
+    background-color: #bcb2e6;
+    
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+.copiar-btn{
+    position: absolute;
+    bottom: 70px;
+    right: 200px;
+    width: 150px;
+    padding: 10px;
+
+    border: none;
+    background-color: #625a81;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.25s all;
+}
+
+.copiar-btn:hover{
+    background-color: rgb(45, 61, 104);
+    color: white;
+    transform: scale(1.1);
+}
+
+.texto-imagen{
+    /* Posición */
+
+        position: absolute;
+        top: 450px;
+        right: 160px;
+    
+    /* Fuente */
+    
+        font-size: 18px;
+        font-weight: bolder;
+}
+
+.texto-imagen2{
+    position: absolute;
+    top: 480px;
+    right: 140px;
+}

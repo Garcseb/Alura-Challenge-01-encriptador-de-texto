@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Encriptador Challenge - Alura</title>
+    <script src="Assets/js/script.js"></script>
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+    <h1>a</h1>
+
+    <div class="polig"></div>
+  
+    <button type="submit" class="encriptar-btn" onclick="encriptar()">Encriptar</button>
+  
+    <button type="submit" class="desencriptar-btn" onclick="desencriptar()">Desencriptar</button>
+  
+    <label for="resultado"></label>
+    <textarea class="resultado" type="text" id="resultado" readonly></textarea>
+
+    <button type="button" class="copiar-btn" onclick="copiarResultado()">Copiar texto</button>
+
+    <p class="aviso">✔ Recuerda colocar todas las letras minúsculas y sin acentos</p>
+
+    <div class="container">
+    
+      <img class="resultado-imagen" src="Assets/imgs/Muñeco.png" alt="Imagen" id="imagen">
+
+      <textarea class="input-text" type="text" id="texto" required placeholder="Escribe algo aquí"></textarea>
+    
+    </div>
+
+    <p id="imagen-texto" class="texto-imagen">No se ha encontrado nada aún.</p>
+    <p id="imagen-texto2" class="texto-imagen2">Escribe un texto para encriptar/desencriptar.</p>
+
+  </body>
+
+</html>
